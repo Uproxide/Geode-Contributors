@@ -1,3 +1,7 @@
+# 1.1.1
+
+ * MacOS and Android Support
+
 # 1.1.0
 
  * IDs are now online, so i dont have to update on giving a person the badge
