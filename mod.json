@@ -3,9 +3,9 @@
 	"gd": {
 		"android": "2.205",
         	"win": "2.204",
-		"mac": "2.200"
+		"mac": "2.2"
 	},
-	"version": "v1.1.0",
+	"version": "v1.1.1",
 	"id": "uproxide.geodedevelopers",
 	"name": "Geode Contributors",
 	"developer": "Uproxide",
