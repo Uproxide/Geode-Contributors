@@ -1,10 +1,11 @@
 {
 	"geode": "2.0.0",
 	"gd": {
-		"android": "2.205",
-        	"win": "2.204",
-		"mac": "2.2"
-	},
+        	"mac": "*",
+        	"ios": "*",
+        	"android": "*",
+        	"win": "*"
+    	},
 	"version": "v1.1.1",
 	"id": "uproxide.geodedevelopers",
 	"name": "Geode Contributors",
