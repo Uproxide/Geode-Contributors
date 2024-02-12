@@ -25,7 +25,7 @@ public:
 
 		if (!gotTheShit)
 		{
-			auto res = web::fetch("https://raw.githubusercontent.com/Uproxide/GeodeMods/main/other/contributors.txt");
+			auto res = web::fetch("https://projectbdash.com/userrates/cont.txt");
 			if (!res) {
 				log::info("Failed to fetch Contributors! Your internet is probably hot ass rn :ned:");
 			}
