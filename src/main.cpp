@@ -54,7 +54,7 @@ public:
 				spr->setPosition(first_letter->convertToWorldSpace(getPosition()));
 				spr->setPosition({spr->getPositionX() - 15.f, spr->getPositionY() + 10.f});
 				spr->setID("geode-badge");
-				layerIWant->addChild(spr);
+				badgeMenu->addChild(spr);
 
 				auto ytbadge = static_cast<cocos2d::CCSprite*>(this->getChildren()->objectAtIndex(1));
 
