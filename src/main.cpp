@@ -20,8 +20,8 @@ class $modify(ProfilePage) {
 public:
     bool loadedOnce = false;
 
-    bool init(int p0, bool p1) {
-        if (!ProfilePage::init(p0, p1)) return false;
+    void loadPageFromUserInfo(GJUserScore* p0) {
+		ProfilePage::loadPageFromUserInfo(p0);
 
 		if (!gotTheShit)
 		{
@@ -49,7 +49,7 @@ public:
 			if (contributor == p0) {
 				CCNode* first_letter = reinterpret_cast<CCNode*>(m_usernameLabel->getChildren()->objectAtIndex(0));
 				auto spr = CCSprite::create("geode.png"_spr);
-				auto layerIWant = static_cast<cocos2d::CCLayer*>(this->getChildren()->objectAtIndex(0));
+				auto badgeMenu = static_cast<cocos2d::CCMenu*>(this->getChildByID("bagde-menu"));
 				spr->setScale(1.1f); // much better
 				spr->setPosition(first_letter->convertToWorldSpace(getPosition()));
 				spr->setPosition({spr->getPositionX() - 15.f, spr->getPositionY() + 10.f});
@@ -69,7 +69,6 @@ public:
 				}
 			}
 		}
-		return true;
 	}
 
 	void setupPageInfo(gd::string name, char const* chars) {
