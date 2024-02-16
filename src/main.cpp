@@ -46,7 +46,7 @@ public:
 															
 
 		for (const auto& contributor : geodeContributors) {
-			if (contributor == p0) {
+			if (contributor == p0->m_accountID) {
 				CCNode* first_letter = reinterpret_cast<CCNode*>(m_usernameLabel->getChildren()->objectAtIndex(0));
 				auto spr = CCSprite::create("geode.png"_spr);
 				auto badgeMenu = static_cast<cocos2d::CCMenu*>(this->getChildByID("bagde-menu"));
