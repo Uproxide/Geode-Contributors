@@ -25,7 +25,7 @@ public:
 
 		if (!gotTheShit)
 		{
-			auto res = web::fetch("https://projectbdash.com/userrates/cont.txt");
+			auto res = web::fetch("https://projectbdash.com/api/cont.txt");
 			if (!res) {
 				log::info("Failed to fetch Contributors! Your internet is probably hot ass rn :ned:");
 			}
