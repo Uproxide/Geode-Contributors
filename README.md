@@ -1,3 +1,2 @@
-# GeodeContributors
-
-This is where she makes a mod.
+# Geode Contributors
+no longer maintained har har
